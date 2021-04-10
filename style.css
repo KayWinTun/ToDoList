@@ -1,0 +1,114 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body{
+      background: cadetblue;
+      font-weight: 400;
+      font-size: 16px;
+      font-family: sans-serif;
+      height: 100vh;
+      position: relative;
+}
+
+.container{
+      width: 450px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0px 2px 93px -19px rgba(0,0,0,0.15);
+      height: 80%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+}
+
+h1{
+      font-size: 36px;
+      color: cornflowerblue;
+      margin: 30px 0 45px;
+}
+
+input{
+      width: 100%;
+      background: #ffffff;
+      box-shadow: 0px 7px 33px -4px rgba(0,0,0,0.15);
+      border-radius: 34px;
+      border: none;
+      outline: none;
+      padding: 20px 25px;
+}
+
+input.icon{
+      font-size: 35px;
+      color: white;
+      background: #5cb85c;
+      width: auto;
+      border-radius: 50%;
+      padding: 0px 12px;
+      position: relative;
+      right: -42%;
+      top: -50px;
+      border: 1px solid transparent;
+      transition: all .3s ease;
+      cursor: pointer;
+}
+
+.icon:hover{
+      color: #5cb85c;
+      background: white;
+      border-color: #5cb85c;
+}
+
+.row{
+      padding: 0 40px;
+      position: relative;
+}
+
+.row input::placeholder{
+      font-size: 16px;
+      color: #aaaaaa;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+      font-size: 24px;
+      color: #474747;
+      margin: 20px 0 40px;
+}
+
+.row ul.task_list{
+      list-style: none;
+      text-align: left;
+}
+
+.row ul.task_list li{
+      background: #ffffff;
+      box-shadow: 0px 7px 33px -4px rgba(0,0,0,0.15);
+      border-radius: 34px;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #aaaaaa;
+      position: relative;
+}
+
+.row ul.task_list li span{
+      position: absolute;
+      font-size: 12px;
+      right: 9px;
+      top: 3px;
+      padding: 9px 15px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.15);
+      cursor: pointer;
+      transition: all .3s ease-in;
+}
+
+.row ul.task_list li span:hover{
+      color: white;
+      background: red;
+}
